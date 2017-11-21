@@ -69,7 +69,7 @@ So what we have here is a phone parser. You can see that we have a few modules. 
 
 It's relatively simple what is inside of this. The idea for using this as an example was not to give you an overly complex problem, but instead to give you a really nice case study that you can use for future projects.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+3%3A+Phone+Parsing+Code+Library/Phone+Parser+package+diagram.PNG "Phone Parser Package Diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+3%3A+Phone+Parsing+Code+Library/Phone+Parser+package+diagram.PNG)
 
 Notice I added a frame here and I used the shorter version of package--just 'pkg'--so that anyone looking at this will instantly know that it's a package diagram. Inside of it, we just have two modules which, if you look at the codebase, that's all we have there as well. We have PhoneParser, and then we have CountryCodes.
 
@@ -91,7 +91,7 @@ If you look at the GitHub page for this project and [go down to usage](https://g
 
 You didn't have to do anything besides show how the system could take in data, and how it could send messages back and forth between methods and between modules.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+3%3A+Phone+Parsing+Code+Library/Phone+Parser+sequence+diagram.PNG "Phone Parser Sequence Diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+3%3A+Phone+Parsing+Code+Library/Phone+Parser+sequence+diagram.PNG)
 
 Here, you can see first and foremost who the participants are. This is a relatively small system.
 

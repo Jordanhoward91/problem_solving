@@ -84,7 +84,7 @@ Welcome to the solution for the Twitter class diagram.
 
 Now this is going to look very similar to what we implemented in the UML training course, if you went through that, but I made a number of modifications. And the main reason is because I didn't want to give you the full answer to the project and so this is a slightly modified version that has all of the same class names but I made some changes that I would personally use in a project if I was tasked with building Twitter.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+1%3A+Twitter/Twitter+Class+Diagram.PNG "Twitter Class Diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+1%3A+Twitter/Twitter+Class+Diagram.PNG)
 
 Now there is a lot of content here. This is definitely one of the larger class diagrams that you'll go through in this entire course, but this is great training because this is a pretty standard kind of setup for building an application. There are some important components here that I want to point out. There are also some optional elements here that I want you to be aware of because there are going to be many times where an organization has their own version of UML. They have their own type of syntax and their own way of doing things. And that's perfectly fine. I write my own UML slightly different than any other developer that I've met. There are always going to be slight changes. And so what I want to do is point out what the standard elements are and then show you why I've made some of my own creative decisions, because they work for me.
 

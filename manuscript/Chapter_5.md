@@ -108,7 +108,7 @@ In this lesson we're going to walk through the solution for the fleet management
 
 This is going to focus on the process of tracking maintenance, which has a number of activities that we want to be able to visualize. But as with most activity diagrams one of the most important parts of this entire model is giving us the ability to check to see what happens when things don't go right, and being able to visualize the branching logic on when we expected one thing to happen but something else happened. That's really the point of pretty much every activity diagram that we're going to be using in this entire course.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Maintenance+activity+diagram.PNG "Maintenance activity diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Maintenance+activity+diagram.PNG)
 
 Our start point when a user has some type of maintenance inquiry. So imagine that you want to give truck drivers the ability to say, "I think there might be something the matter with my truck." Or it may just be time to go in for regular maintenance on it, such as an oil change or new brakes or something like that.
 
@@ -137,7 +137,7 @@ In this lesson, we're going to walk through the potential solution for the fleet
 
 When I built the system, I was able to break it in to these five modules. Remember one of the most important elements of a package diagram is being able to show the dependencies. If you did not build your system to have the proper types of dependencies I recommend to look back at your project and see how that can be cleaned up a little bit.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Fleet+Management+System+package+diagram.PNG "Fleet Management System package diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Fleet+Management+System+package+diagram.PNG)
 
 Starting on the top left hand side we have our Personnel module. This is going to track drivers, the admins, etc. We have the ability to hire, to leave, to have authentication, and to log out. These could be users of the system, and they may also be truck drivers who may not have to log into the system.
 
@@ -164,7 +164,7 @@ In this guide, we're going to walk through the solution for the fleet management
 
 The reason is because every project that you come into and that you're asked to build is going to propose some unique challenges.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Fleet+Management+System+deployment+diagram.PNG "Enterprise Deployment Diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Fleet+Management+System+deployment+diagram.PNG)
 
 Starting with the load balancer, I went with one of the most basic options here,k which is a 50 percent traffic split. This means that if I get two requests then the first one I'm going to be sending to the first application server and then the second one I'm going to be sending to the secondary server. So if User A comes in when they go the Web site the load balancer takes that traffic and redirects them here. User B hits it right afterwards and then they are sent here and
 
@@ -191,7 +191,7 @@ In this lesson, we're going to walk through the class diagram for the fleet mana
 
 Essentially, is a CRUD based application, which means that you have a number of tables and then you have the ability to make changes. Like I mentioned in the requirements video, the main element I wanted you to focus on is the concept of breaking out tables into smaller tables, because when it comes to building an enterprise level application, you really want to make sure that you're building well-structured relationships.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Fleet+Management+System+class+diagram.PNG "Enterprise class diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+4%3A+Enterprise+Fleet+Management+System/Fleet+Management+System+class+diagram.PNG)
 
 The Parts and MaintenanceParts classes are a great example. You can see that this could be accomplished in a few different ways. Technically, MaintenanceParts is a type of Part, so this could be subclassed, but just because you have the ability to use inheritance does not necessarily mean that you should or that you need to. It just comes down to personal preference.
 

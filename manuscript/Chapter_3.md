@@ -67,7 +67,7 @@ It's very easy and it's one of the most natural things for us to do, is to build
 
 When everything goes right, that's actually a relatively simple thing to model. The complexity comes in when you have to model what happens when one thing or even multiple things *don't* go right. That's where the complexity comes into the system, not only in building out the diagram, but also when it comes to building that into a code base.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+2%3A+Coffee+Ordering+Application/eCommerce+Activity+Diagram.PNG "eCommerce activity diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+2%3A+Coffee+Ordering+Application/eCommerce+Activity+Diagram.PNG)
 
 So, from our start point, the user has a few different branches right from the beginning. So there might be something where they're searching for a product, or they might want to browse categories, or they might want to view previously saved items. So those are the three potential options.
 
@@ -101,7 +101,7 @@ Now, this diagram is even larger than the Twitter project, and it's for a good r
 
 We're going to pick and choose different classes and focus on those we're not going to talk about every single class mainly because there's going to be duplications throughout the entire set of the explanations so I'm going to focus on what makes this type of class diagram different.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+2%3A+Coffee+Ordering+Application/eCommerce+Class+Diagram.PNG "eCommerce Class Diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+2%3A+Coffee+Ordering+Application/eCommerce+Class+Diagram.PNG)
 
 I'm going to start off with the taxonomy. This part is, I think, one of the trickier components of this entire system because it utilizes a situation where we don't just have a traditional "one table is related to another." In taxonomy, if you remember back to the instructions, what this represents is a high level abstract kind of class. So this means that we're not going to go and create a set of taxonomies. Instead what we're going to do is we're going to create categories and we're going to create tags, and both of those classes will inherit from the taxonomy class.
 
