@@ -55,7 +55,7 @@ Now, each one of the solution videos in this course is going to be broken down i
 
 The other reason, though, is because when you're out in industry, when you're working on your own real world development projects, I want to give you guides that you can reference. For example, we're going to talk about a use case diagram in this guide. And so in your future projects you may want to be able to come back and look and see what the correct syntax and structure is for a use case diagram. So you can come back and look at one guide instead of having to sift through a number of them. So with all of that being said, let's jump into this first solution where we walk through a use case diagram for building the Twitter functionality.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+1%3A+Twitter/Post+Tweet+use+case+diagram.PNG "Post Tweet use case diagram")
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+1%3A+Twitter/Post+Tweet+use+case+diagram.PNG)
 
 Here we have two actors. We have an author and we have a follower. You can think of an author as someone who authors a tweet.
 
