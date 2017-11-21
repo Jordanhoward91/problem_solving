@@ -67,7 +67,7 @@ It's very easy and it's one of the most natural things for us to do, is to build
 
 When everything goes right, that's actually a relatively simple thing to model. The complexity comes in when you have to model what happens when one thing or even multiple things *don't* go right. That's where the complexity comes into the system, not only in building out the diagram, but also when it comes to building that into a code base.
 
-![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+2%3A+Coffee+Ordering+Application/eCommerce+Activity+Diagram)
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Problem+Solving+images/Project+2%3A+Coffee+Ordering+Application/eCommerce+Activity+Diagram.png)
 
 So, from our start point, the user has a few different branches right from the beginning. So there might be something where they're searching for a product, or they might want to browse categories, or they might want to view previously saved items. So those are the three potential options.
 
